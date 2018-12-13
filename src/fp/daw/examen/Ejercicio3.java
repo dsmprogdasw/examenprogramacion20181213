@@ -18,7 +18,10 @@ public class Ejercicio3 {
 	 *  
 	 */
 	
-	public static ...
+	public static String [] stringToArray(char [] filaA, char [] filaB) {
+		
+		
+	}
 	
 	/*
 	 * 1 punto

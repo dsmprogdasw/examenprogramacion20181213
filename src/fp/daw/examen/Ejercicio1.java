@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio1 {
 
 	/* 
@@ -14,7 +16,15 @@ public class Ejercicio1 {
 	 * donde num1, num2, num3, ..., numN son los números almacenados en el vector.
 	 */
 	
-	public static ...
+	public static void mostrarVector (int n){
+		int[] vector = new int[n];
+		for(int i = 0; i<n; i++) 
+			vector[i] = vector[i] + 1;
+			System.out.print("nums"+ vector[n] + ",");
+		
+		
+		
+	}
 	
 	/* 
 	 * 1 punto
@@ -27,6 +37,15 @@ public class Ejercicio1 {
 	 * donde 'c1', 'c2', 'c3', ...., 'cN' son los caracteres almacenados en el vector.
 	 */
 
-	public static ...
+	public static void mostrarVectorDos (int n) {
+		int[] vector = new int[n];
+		for(int i = 0; i<n; i++) {
+			vector[i] = vector[i] + 1;
+		    System.out.print("'"+ "c" + vector[n] +"'");
+
+		}
+	
+		
+	}
 	
 }
